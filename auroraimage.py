@@ -53,7 +53,7 @@ class AuroraImageUI:
         self.button1 = ctk.CTKButton(self.window, text="Choose file", command=open_file_ui)
         self.button1.pack(padx=10, pady=10)
 
-        self.result_txt = tk.text(self.window, height=10, width=80, state="disabled")
+        self.result_txt = tk.Text(self.window, height=10, width=80, state="disabled")
         self.result_text.pack(padx=10, pady=10)
 
        
